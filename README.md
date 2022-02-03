@@ -27,6 +27,7 @@ El cifrado césar es una de las técnicas más simples para cifrar un mensaje. E
 un tipo de cifrado por sustitución, es decir que cada letra del texto original
 es reemplazada por otra que se encuentra un número fijo de posiciones
 (desplazamiento) más adelante en el mismo alfabeto.
+Es asi que este trabajo ....
 
 Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 

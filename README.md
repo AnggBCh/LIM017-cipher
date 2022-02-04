@@ -64,6 +64,7 @@ con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
 como tecnologías.
 
 Boceto del proyecto: 
+
 ![1](https://user-images.githubusercontent.com/98761993/152613640-466b8679-126d-49f9-8a53-53148fe6968b.png)
 ![2](https://user-images.githubusercontent.com/98761993/152613656-c7f2e062-415a-4772-8274-4297d83d0736.png)
 ![3](https://user-images.githubusercontent.com/98761993/152613667-cb1ba8c0-bae3-4316-ba16-3ad82fbdd604.png)

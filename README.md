@@ -53,9 +53,6 @@ Tu decides si lo compartes o si solo queda en secreto.
 
 Este proyecto crea una aplicación web que servirá para que Amigas de cualquier edad puedan cifrar y descifrar un texto indicando un desplazamiento específico de
 caracteres (_offset_).
-En dos Opciones:
-1) Cifrado Normal (Avanzando 3 cifras)
-2) Cifrado Avanzado (Avanzando 9 cifras)
 
 **TEMÁTICA**
 Se acerca Febrero y estas cansada de tantas cosas cursis para parejas. 

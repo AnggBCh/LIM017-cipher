@@ -16,7 +16,7 @@ buttonCifrar.addEventListener("click", function(){
 
   document.getElementById("mensaje").addEventListener("keyup", function() {
     this.value = this.value.toUpperCase();
-    //al id=mensaje lo volveremos a mayusculas al momento del ingreso te texto (keyup) realizando la funcion anonima 
+    //al id=mensaje lo volveremos a mayusculas al momento del ingreso te texto (keyup) realizando la funcion anonima
   });
 
 const buttonDescifrar = document.getElementById("descifrar");

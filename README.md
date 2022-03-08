@@ -1,4 +1,4 @@
-# Cifrado César
+# SECRET FRIENDS... dilo pero en secreto. (Cifrado César)
 
 ## Índice
 
@@ -16,10 +16,12 @@
 
 ## 1. Preámbulo
 
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
-es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
-César lo usaba para enviar órdenes secretas a sus generales en los campos de
-batalla.
+Cifrar significa codificar; ocultar un mensaje para descubrir otro.
+El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. 
+El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
+
+Pero esta vez lo usaremos de una manera mucho más divertida.
+Y es que tus amigas y tu pueden tener al fin un medio secreto para crear su propio lenguaje de Best Friends!.
 
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
 
@@ -27,9 +29,9 @@ El cifrado césar es una de las técnicas más simples para cifrar un mensaje. E
 un tipo de cifrado por sustitución, es decir que cada letra del texto original
 es reemplazada por otra que se encuentra un número fijo de posiciones
 (desplazamiento) más adelante en el mismo alfabeto.
-Es asi que este trabajo ....
 
-Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
+
+Imagina Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 
 * La letra A se cifra como D.
 * La palabra CASA se cifra como FDVD.
@@ -42,32 +44,30 @@ comunicación por sí mismos; el cifrado César sí puede formar parte de sistem
 más complejos de codificación, como el cifrado Vigenère, e incluso tiene
 aplicación en el sistema ROT13.
 
+Tendrás las opciones de enviar un mensaje muy simple o tambien uno muy complejo. TU DECIDES como leerlo!
+Tu decides si lo compartes o si solo queda en secreto.
+
+
+
 ## 2. Resumen del proyecto
 
-En este proyecto crearás una aplicación web que servirá para que el usuario
-pueda cifrar y descifrar un texto indicando un desplazamiento específico de
+Este proyecto crea una aplicación web que servirá para que Amigas de cualquier edad puedan cifrar y descifrar un texto indicando un desplazamiento específico de
 caracteres (_offset_).
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso
-(qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de
-ejemplo:
+**TEMÁTICA**
+Se acerca Febrero y estas cansada de tantas cosas cursis para parejas. 
+Tu mejor amiga y tú, libres y empoderadas buscan un regalo que sea tan de "USTEDES". 
+Que no solo represente una fecha sino que las caracterice.
+¡Y lo mejor lo usen los 365 días del año!
 
-* Crear claves seguras para el email.
-* Encriptar/cifrar una tarjeta de crédito.
-* Herramienta de mensajería interna de una organización de derechos humanos en
-  una zona de conflicto.
-* Mensajería secreta para parejas.
+Se podrán comunicar de manera UNICA para concretar una salida por la tarde o hasta ponerle secreto a sus tareas de colegio, universidad, etc.
 
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
+Utilizando HTML, CSS y JavaScript como tecnologías lo lograrán.
 
 Boceto del proyecto: 
 
-![1](https://user-images.githubusercontent.com/98761993/152613640-466b8679-126d-49f9-8a53-53148fe6968b.png)
 ![2](https://user-images.githubusercontent.com/98761993/152613656-c7f2e062-415a-4772-8274-4297d83d0736.png)
-![3](https://user-images.githubusercontent.com/98761993/152613667-cb1ba8c0-bae3-4316-ba16-3ad82fbdd604.png)
+
 
 ## 3. Objetivos de aprendizaje
 

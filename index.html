@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Friends</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <!--link href para descargar platillas de letras de google fonts-->
+  </head>
+
+  <body>
+
+    <div id="root" class="main">
+    <!-- se ingresa la clase "main" para colocar el codigo css -->
+      <h1>¿Tienes un mensaje secreto y no sabes como enviarlo?</h1>
+
+      <div class="contenido">
+      <!-- clase "contenido" para editar el texto en negrita con la etiqueta strong -->
+            <strong>Ingresa el mensaje ✍ que desees esconder 🙊 desplaza 🤸‍♀️  y observa 👀 como se convierte en un super secreto..! 🤫 </strong>
+      </div>
+
+
+        <div class="buttons">
+        <!-- clase "buttons" para ordenar los botones dentro de una misma caja en css -->
+            <div class="one"><p>Mensaje:</p></div>
+            <!-- clase one para editar el texto en css -->
+            <div><p><input class="two" type="text" id="mensaje"></p></div>
+            <!-- clase two para editar la forma del input en css-->
+            <!-- se ingresa el id "mensaje" para que tome el texto ingresado en el input -->
+
+              <div>
+                <p class="three" >Desplazamiento:</p>
+                <!-- clase three para editar el texto "Desplazamiento" en css-->
+                <p><input class="four" type="number" id="desplazamiento"/></p>
+                <!-- clase "four" para editar la forma del input en css -->
+                <!-- se ingresa el id "desplazamiento" para darle interaccion del offset -->
+              <button type="button" id="cifrar" class="buton_one"><span>Cifrar</span></button><button type="button" id="descifrar" class="buton_two"><span>Descifrar</span></button>
+                <!-- se ingresan botones con id cifrar/descifrar el cual sera llamado para hacer interaccion en el DOM con clase "buton_one"/"buton_two" para edicion en css
+                  con etiqueta "span" para darle estilo demtro de la linea, no como un contenedor como div-->
+              </div>
+
+            <div>
+            <p class="five"> Mensaje codificado: </p>
+            <!-- clase five para darle estilo en css -->
+            <div class="end" id="resultado">  </div>
+            <!-- clase end para darle estilo en css y id "resultado" para regresar la codificacion por inner html -->
+            </div>
+        </div>
+
+              <!-- <div class="footer">hhh</div> -->
+
+    </div>
+
+    <script src="index.js" type="module"></script>
+
+  </body>
+</html>
